@@ -1,0 +1,51 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 10rem;
+  color: white;
+}
+
+.timer-content {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+}
+
+.memo-input-wrapper {
+  margin: 20px;
+}
+
+.memo-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.memo {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.modal-button {
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  background-image: url("./images/001-cloud.png");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}

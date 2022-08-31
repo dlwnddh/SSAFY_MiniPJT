@@ -1,0 +1,9 @@
+.carousel-item img {
+  height: 90vh;
+}
+
+.card img {
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
