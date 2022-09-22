@@ -1,9 +1,53 @@
-.carousel-item img {
-  height: 90vh;
+.main-background {
+  background-image: url("./images/52582377-추상-그라데이션-파스텔-색조-배경-그림.webp");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
-.card img {
-  width: 30%;
+.page-background {
+  height: 100%;
+}
+
+.card-style {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.my-style {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+  background-image: url("./images/이력서\ 사진.jpg");
+  background-size: cover;
+}
+
+.intro-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.intro-list2 {
+  width: 700px;
+}
+
+.skill-main {
+  display: flex;
   align-items: center;
   justify-content: center;
 }

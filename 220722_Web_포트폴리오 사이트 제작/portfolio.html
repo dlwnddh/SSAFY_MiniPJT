@@ -1,510 +1,233 @@
-<!-- 일단은 과제 제출하는데 주말동안 공부 좀 더 해서 저만의 페이지 만들면 올리겠습니다!! -->
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">이중오</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#main"
-                  >Main</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skill</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Stack</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Closing</a>
-              </li>
-            </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+
+
+
+<body class="main-background">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">이중오's portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <div class="nav-link">
+                <a href="https://github.com/dlwnddh">
+                  <img src="./images/unnamed.png" width="30" height="30">
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="nav-link">
+                <a href="#">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-background">
+    <!-- main -->
+    <section id="main-part">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner" style="height: 93vh;">
+          <div class="carousel-item active">
+            <section id="about-part" class="sort-center pb-5 page-background mt-4">
+              <div class="intro-main">
+
+                <div class="intro-me">
+
+                  <div class="card card-style m-5">
+                    <div class="my-style m-auto"></div>
+                  </div>
+
+                  <ul class="list-group m-5">
+                    <li class="list-group-item bg-light">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
+                        <path
+                          d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
+                      </svg>
+                      <span class="ml-2"> 한국기술교육대학교 메카트로닉스공학부 제어시스템전공</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                      </svg>
+                      <span class="ml-2"> 010-3532-7981</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-clipboard2-data" viewBox="0 0 16 16">
+                        <path
+                          d="M9.5 0a.5.5 0 0 1 .5.5.5.5 0 0 0 .5.5.5.5 0 0 1 .5.5V2a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 2v-.5a.5.5 0 0 1 .5-.5.5.5 0 0 0 .5-.5.5.5 0 0 1 .5-.5h3Z" />
+                        <path
+                          d="M3 2.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 0 0-1h-.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1H12a.5.5 0 0 0 0 1h.5a.5.5 0 0 1 .5.5v12a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-12Z" />
+                        <path
+                          d="M10 7a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7Zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4-3a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V9a1 1 0 0 0-1-1Z" />
+                      </svg>
+                      <span class="ml-2"> 학점 : 4.06 / 4.5</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-link-45deg" viewBox="0 0 16 16">
+                        <path
+                          d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                        <path
+                          d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                      </svg>
+                      <span class="ml-2"> https://github.com/dlwnddh</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-award" viewBox="0 0 16 16">
+                        <path
+                          d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z" />
+                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                      </svg>
+                      <span class="ml-2"> 일반기계기사, 컴퓨터활용능력</span>
+                    </li>
+                  </ul>
+                  
+                </div>
+
+                <div class="intro-me">
+                  <ul class="list-group m-5 intro-list2">
+                    <li class="list-group-item bg-light">
+                      <span class="ml-2"> 2016.03 ~ 2020.06 교내 자치회 방송국 - 기술부원 / 촬영부장</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <span class="ml-2">2020.03 ~ 2021.10 교내 캡스톤디자인 - 팀장</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <span class="ml-2">2020.10 ~ 2020.12 BEEBOY 로보컵 경진대회 - 디자인상</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <span class="ml-2">2021.10 ~ 2021.11 교내 자율주행차 경진대회</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <span class="ml-2">2022.01 ~ 2022.01 [나만의 스마트팩토리 만들기 with unity 교육</span>
+                    </li>
+                    <li class="list-group-item bg-light">
+                      <span class="ml-2">2022.07 ~ 삼성 청년 SW 아카데미 8기</span>
+                    </li>
+                  </ul>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide</h5>
+                    <p>본인 소개 및 활동 내용</p>
+                  </div>
+                </div>
+                
+              </div>
+
+
+            </section>
           </div>
-        </div>
-      </nav>
-    </header>
 
-    <main>
-      <!-- main -->
-      <section id="main-part">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-bs-ride="true"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
+          <div class="carousel-item">
+            <section id="language-part" class="pt-5 page-background">
+              <div class="skill-main" style="height: 100%;">
+                <ul class="w-75 ml-auto mr-auto mt-5 skill-list">
+                  <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">C++</div>
+                    <div class="progress w-50 m-auto">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%"></div>
+                    </div>
+                    <div class="w-25 text-center">95%</div>
+                  </li>
+                  <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">C</div>
+                    <div class="progress w-50 m-auto">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%"></div>
+                    </div>
+                    <div class="w-25 text-center">95%</div>
+                  </li>
+
+                  <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">Python</div>
+                    <div class="progress w-50 m-auto">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%"></div>
+                    </div>
+                    <div class="w-25 text-center">70%</div>
+                  </li>
+                  <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">HTML</div>
+                    <div class="progress w-50 m-auto">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
+                    </div>
+                    <div class="w-25 text-center">50%</div>
+                  </li>
+                  <li class="list-group-item d-flex align-items-center p-4">
+                    <div class="w-25">JavaScript</div>
+                    <div class="progress w-50 m-auto">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+                    </div>
+                    <div class="w-25 text-center">40%</div>
+                  </li>
+                </ul>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide</h5>
+                  <p>SW Skill</p>
+                </div>
+              </div>
+
+            </section>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./images/sunset-g23baa3f1f_1920.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/hd-wallpaper-gb334604b9_1920.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/maldives-g8b26e50b5_1920.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
         </div>
-      </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-      <!-- about -->
-      <section id="about-part" class="bg-light sort-center pt-5">
-        <div class="h1 bg-dark p-4 text-white w-100 text-center">About</div>
-        <div class="card ml-auto m-auto mt-4" style="width: 18rem">
-          <img
-            src="./images/KakaoTalk_20220722_192402561.jpg"
-            class="card-img-top mt-4 w-75 m-auto"
-            alt="..."
-          />
-          <div class="card-body text-center">
-            <h5 class="card-title h3">Jungoh Lee</h5>
-            <p class="card-text">IoT Developer<br />(Web + Embedded)</p>
-          </div>
-        </div>
-        <div class="mt-5 text-center">
-          안녕하세요. 신뢰를 목표로 하는 개발자 이중오입니다.
-          <br />
-          함께 일하시고 싶으시다면 언제든 연락주셔도 됩니다.
-        </div>
-        <ul class="list-group mt-4 w-75 m-auto">
-          <li class="list-group-item bg-light">
-            <svg
-              width="1.3em"
-              height="1.3em"
-              viewBox="0 0 16 16"
-              class="bi bi-telephone-fill"
-              fill="#006CFF"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"
-              />
-            </svg>
-            <span class="ml-2">010-3532-7981</span>
-          </li>
-          <li class="list-group-item bg-light">
-            <svg
-              width="1.3em"
-              height="1.3em"
-              viewBox="0 0 16 16"
-              class="bi bi-mailbox2"
-              fill="#006CFF"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4zM8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8V7zm1 1.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1zM4.585 7.157C4.836 7.264 5 7.334 5 7a1 1 0 0 0-2 0c0 .334.164.264.415.157C3.58 7.087 3.782 7 4 7c.218 0 .42.086.585.157z"
-              />
-            </svg>
+    <!-- about -->
 
-            <span class="ml-2">wnddh98@naver.com</span>
-          </li>
-          <li class="list-group-item bg-light">
-            <svg
-              width="1.3em"
-              height="1.3em"
-              viewBox="0 0 16 16"
-              class="bi bi-house-door-fill"
-              fill="#006CFF"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"
-              />
-              <path
-                fill-rule="evenodd"
-                d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
-              />
-            </svg>
-            <span class="ml-2">대전 동구 가양2동</span>
-          </li>
-          <li class="list-group-item bg-light">
-            <svg
-              width="1.3em"
-              height="1.3em"
-              viewBox="0 0 16 16"
-              class="bi bi-link-45deg"
-              fill="#006CFF"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4.715 6.542L3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.001 1.001 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
-              />
-              <path
-                d="M5.712 6.96l.167-.167a1.99 1.99 0 0 1 .896-.518 1.99 1.99 0 0 1 .518-.896l.167-.167A3.004 3.004 0 0 0 6 5.499c-.22.46-.316.963-.288 1.46z"
-              />
-              <path
-                d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 0 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 0 0-4.243-4.243L6.586 4.672z"
-              />
-              <path
-                d="M10 9.5a2.99 2.99 0 0 0 .288-1.46l-.167.167a1.99 1.99 0 0 1-.896.518 1.99 1.99 0 0 1-.518.896l-.167.167A3.004 3.004 0 0 0 10 9.501z"
-              />
-            </svg>
-            <span class="ml-2">https://github.com/dlwnddh</span>
-          </li>
-        </ul>
-      </section>
 
-      <!-- language -->
-      <section id="language-part" class="pt-5">
-        <div class="h1 bg-dark p-4 text-white text-center">Language Skill</div>
+    <!-- language -->
 
-        <ul class="w-75 ml-auto mr-auto mt-5 skill-list">
-          <li class="list-group-item d-flex align-items-center p-4">
-            <div class="w-25">C</div>
-            <div class="progress w-50 m-auto">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                style="width: 85%"
-              ></div>
-            </div>
-            <div class="w-25 text-center">85%</div>
-          </li>
-          <li class="list-group-item d-flex align-items-center p-4">
-            <div class="w-25">C++</div>
-            <div class="progress w-50 m-auto">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                style="width: 78%"
-              ></div>
-            </div>
-            <div class="w-25 text-center">78%</div>
-          </li>
+  </main>
 
-          <li class="list-group-item d-flex align-items-center p-4">
-            <div class="w-25">Python</div>
-            <div class="progress w-50 m-auto">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                style="width: 70%"
-              ></div>
-            </div>
-            <div class="w-25 text-center">70%</div>
-          </li>
-          <li class="list-group-item d-flex align-items-center p-4">
-            <div class="w-25">JavaScript</div>
-            <div class="progress w-50 m-auto">
-              <div
-                class="progress-bar progress-bar-striped progress-bar-animated"
-                style="width: 50%"
-              ></div>
-            </div>
-            <div class="w-25 text-center">50%</div>
-          </li>
-        </ul>
-      </section>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 
-      <section id="stack-part" class="pt-5">
-        <div class="h1 bg-dark p-4 text-white w-100 text-center">
-          Skill Stack
-        </div>
-        <table class="table w-75 mt-5">
-          <thead>
-            <tr>
-              <th scope="col">분야</th>
-              <th scope="col">분류</th>
-              <th scope="col">스택</th>
-              <th scope="col">Level</th>
-              <th scope="col">근거</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" rowspan="10" class="align-middle">WEB</th>
-              <td rowspan="4" class="align-middle">Front end</td>
-              <td>HTML/CSS</td>
-              <td>⭐⭐⭐⭐⭐</td>
-              <td>웹페이지 클론코딩 가능</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">2</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>Bootstrap</td>
-              <td>⭐⭐⭐</td>
-              <td>Bootstrap5 기준 Document 참고하여 개발 가능</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>Vue.js</td>
-              <td>⭐⭐⭐⭐</td>
-              <td>다양한 Web Project 개발 진행</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>React.js</td>
-              <td>학습예정</td>
-              <td>다양한 Web Project 개발 진행</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <td rowspan="3" class="align-middle">Backend</td>
-              <td>Node.js</td>
-              <td>⭐⭐⭐⭐</td>
-              <td>비동기 통신/REST/WEB Server 운영 개발</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>MySQL</td>
-              <td>⭐⭐⭐</td>
-              <td>활용에 능숙, but DB 성능 개선작업 불가</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>MongoDB</td>
-              <td>⭐⭐</td>
-              <td>Mongo DB Node.js + Mongo.DB 프로젝트 경험</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <td class="align-middle" rowspan="3">DevOps</td>
-              <td>AWS</td>
-              <td>⭐⭐⭐</td>
-              <td>EC2 활용하기</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>Nginx</td>
-              <td>⭐⭐</td>
-              <td>웹서버 운영</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>Jenkins</td>
-              <td>⭐</td>
-              <td>배포서버 운영</td>
-            </tr>
-          </tbody>
-        </table>
-        <hr />
-        <!-- 임베디드 파트  -->
-        <table class="table w-75 mt-5">
-          <thead>
-            <tr>
-              <th scope="col">분야</th>
-              <th scope="col">분류</th>
-              <th scope="col">스택</th>
-              <th scope="col">Level</th>
-              <th scope="col">근거</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" rowspan="13" class="align-middle">Embedded</th>
-              <td rowspan="3" class="align-middle">Firmware</td>
-              <td>ARM</td>
-              <td>⭐⭐⭐⭐</td>
-              <td>Cortex-M3 / A72 아키텍처 이해 및 개발 경험</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">2</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>Raspiberry pi</td>
-              <td>⭐⭐⭐⭐⭐</td>
-              <td>Reaspberry pi 에서 C와 Python으로 Firmware 개발</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>NUCLEO-F103RB</td>
-              <td>학습예정</td>
-              <td>ST사 보드 + IAR 환경에서 개발</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <td>RTOS</td>
-              <td>FreeRTOS</td>
-              <td>⭐⭐⭐</td>
-              <td>Thread Programming / 모듈 제어 가능</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <td rowspan="3" class="align-middle">장비</td>
-              <td>회로도 이해</td>
-              <td>⭐⭐⭐</td>
-              <td>Datasheet / Schematic 분석 가능</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>기본 계측</td>
-              <td>⭐</td>
-              <td>멀티미터 / 오실로스코프 경험</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>Debugger</td>
-              <td>학습예정</td>
-              <td>ST-Link / V2, IAR 환경에서 디버깅</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <td class="align-middle" rowspan="2">Device Driver</td>
-              <td>Linux Kernel</td>
-              <td>⭐⭐⭐</td>
-              <td>자유롭게 사용 가능, Linux 커널 분석 경험</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <!-- <td>Thornton</td> -->
-              <td>Linux Device Driver</td>
-              <td>⭐⭐⭐</td>
-              <td>Device Tree / 캐릭터 Device Driver 개발 경험</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <td>Embedded</td>
-              <td>Qt</td>
-              <td>⭐⭐⭐⭐</td>
-              <td>C++ 대신, Python으로 개발 (PyQt)</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
-              <td rowspan="2" class="align-middle">IoT</td>
-              <td>Connectivity</td>
-              <td>⭐⭐⭐</td>
-              <td>MQTT, LoRa, BLE, Wifi</td>
-            </tr>
-            <tr>
-              <!-- <th scope="row">3</th> -->
+  <script></script>
+</body>
 
-              <td>Security</td>
-              <td>⭐⭐⭐</td>
-              <td>SSL/TLS</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-
-      <section id="to-be-part" class="mt-5 pt-5">
-        <div class="h1 bg-dark p-4 text-white w-100 text-center">Closing</div>
-        <div class="card mb-3 mt-5 text-center">
-          <img
-            src="./images/dog-ga651ed008_1920.jpg"
-            class="card-img-top w-50 m-auto mt-5"
-            alt="..."
-          />
-          <div class="card-body">
-            <h3 class="card-title mt-5">
-              저는 명확한 목표와 흥미를 가지고 있습니다.
-            </h3>
-            <p class="card-text">
-              취업 준비를 하면서 목표와 흥미를 확실히 하는 것이 참 어렵다고
-              느꼈습니다. <br />
-              하지만, 저는 그렇지 않습니다.
-              <br />
-              만약 제가 필요하시다면, 언제든 연락 주세요. 멋진 삶을 살고
-              싶습니다.<br />
-              <br />
-              귀사에 도움이 될 것을 약속 드립니다. 감사합니다. <br /><br />-
-              이중오<br />
-              <br />
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-
-    <script></script>
-  </body>
 </html>
